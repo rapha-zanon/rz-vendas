@@ -1,0 +1,19 @@
+/* Home.css */
+
+
+h1 {
+    font-size: 2.5rem; /* Tamanho da fonte para h1 */
+    margin-bottom: 20px; /* Espaço inferior */
+}
+
+.lead {
+    font-size: 1.25rem; /* Tamanho da fonte para parágrafo principal */
+    margin-bottom: 15px; /* Espaço inferior */
+}
+
+/* Adicionando responsividade para h1 */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem; /* Ajuste o tamanho do h1 para telas menores */
+    }
+}

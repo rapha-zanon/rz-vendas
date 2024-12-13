@@ -1,0 +1,21 @@
+/* src/styles/styles.css */
+.login-page {
+    
+    color: #0a046d; /* Cor do texto (opcional) */
+    height: 100vh; /* Para garantir que ocupe a altura total da tela */
+    display: flex; /* Usando flexbox para alinhar o conteúdo */
+    flex-direction: column; /* Coluna para empilhar conteúdo */
+    overflow: hidden; /* Impede a barra de rolagem */
+}
+
+.login-content {
+    flex: 1; /* Permite que o conteúdo ocupe o espaço disponível */
+    display: flex; /* Para alinhar o formulário e a imagem */
+    justify-content: center; /* Centraliza o conteúdo */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    width: 100%; /* Garante que ocupa a largura total */
+}
+/*body {
+    overflow: hidden; 
+}*/
+

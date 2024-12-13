@@ -1,0 +1,28 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex-grow: 1; /* Faz o main ocupar o espaço restante */
+}
+.logo {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    padding: 16px;          /* Espaçamento interno */
+    background: #001529;    /* Fundo para combinar com o tema do Sider */
+}
+
+.logo img {
+    max-width: 100%;        /* Ajusta o tamanho do logo proporcionalmente */
+    max-height: 80px;      /* Limita a altura máxima */
+    object-fit: contain;   /* Garante que a imagem mantenha a proporção */
+}
+
+@media (max-width: 768px) {
+    .logo {
+        display: none; /* Oculta o logo em telas menores, se necessário */
+    }
+}

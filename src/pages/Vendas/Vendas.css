@@ -1,0 +1,4 @@
+.text-success:hover, .text-danger:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease; /* Para uma transição suave */
+}
